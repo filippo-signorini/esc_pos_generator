@@ -1,7 +1,7 @@
 name: esc_pos_generator
 description: A starting point for Dart libraries or applications.
 version: 1.0.0
-# repository: https://github.com/my_org/my_repo
+repository: https://github.com/filippo-signorini/esc_pos_generator
 
 environment:
   sdk: ^3.2.6
