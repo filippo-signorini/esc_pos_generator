@@ -60,7 +60,8 @@ class Generator {
   }
 
   List<int> hr({bool half = false}) {
-    final line = '-' * (half ? maxCharsPerLine ~/ 2 : maxCharsPerLine);
+    final line = String.fromCharCode(196) *
+        (half ? maxCharsPerLine ~/ 2 : maxCharsPerLine);
     return text(line, style: const PosStyle(align: PosAlign.center));
   }
 
